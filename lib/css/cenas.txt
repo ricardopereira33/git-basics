@@ -1,0 +1,5 @@
+<h2> Ricardo Pereira </h2>
+            <img id="git" src="img/git.png" alt="Git"> 
+            <a href="http://github.com/ricardopereira33">
+              <p id="git_name"> ricardopereira33 </p>
+            </a>
