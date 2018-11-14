@@ -298,9 +298,16 @@ $ git merge test</code></pre>
 
       </section>
       <section>
+        <h2>Fetching</h2>
+        <p>Need to grab what the others did?<br>
+        <br>
+        <pre><code data-trim>$ git fetch
+$ git merge</code></pre></p>
+      </section>
+      <section>
         <h2>Pulling</h2>
         <p>Need to grab what the others did?<br>
-        This is when to use push.
+        Easy version
 
         <pre><code data-trim>$ git pull origin &lt;<span class="colorc">branch name</span>&gt;</code></pre></p>
 
@@ -311,6 +318,23 @@ $ git pull </code></pre>
 
       </section>
       </section>
+
+      <!-- REBASE -->
+      <section>
+        <section data-background="#82E8AE">
+          <h1 class="colorf">Rebasing</h1>
+        </section>
+        <section>
+            <h2>Rebasing</h2>
+            <p>Similar to merge, but different<br>
+                <pre><code data-trim>$ git rebase -i &lt;<span class="colorc">branch name</span>&gt;</code></pre></p>
+
+                An example:
+
+                <pre><code data-trim>$ git rebase -i master</code></pre>
+
+        </section>
+      </section>
       
       <!-- YOUR TURN NOW -->
       <section>
@@ -318,7 +342,6 @@ $ git pull </code></pre>
           <h1 class="colorf">Your turn now</h1>
         </section>
       </section>
-
       <!-- WANNA LEARN MORE -->
       <section>
         <section data-background="#82E8AE">
